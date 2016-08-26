@@ -18,7 +18,7 @@ In your configuration file(s), for example; `main.php`:
 
 ## Usage Example
 ```php
-$service = Yii::$app->ns_webservices->service;
+$service = Yii::$app->ns->service;
 
 $request = new \GetDataCenterUrlsRequest();
 $request->account = Yii::$app->ns_webservices->account;
