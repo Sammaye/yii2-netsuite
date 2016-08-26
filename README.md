@@ -31,3 +31,9 @@ if(!$Response->getDataCenterUrlsResult->status->isSuccess){
 	$webservices = $Response->getDataCenterUrlsResult->dataCenterUrls->webservicesDomain;
 }
 ```
+
+## Links
+
+- [Packagist](https://packagist.org/packages/sammaye/yii2-netsuite)
+- [Github](https://github.com/Sammaye/yii2-netsuite)
+- [Issue Tracker](https://github.com/Sammaye/yii2-netsuite/issues)
