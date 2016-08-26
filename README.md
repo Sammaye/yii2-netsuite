@@ -21,7 +21,7 @@ In your configuration file(s), for example; `main.php`:
 $service = Yii::$app->ns->service;
 
 $request = new \GetDataCenterUrlsRequest();
-$request->account = Yii::$app->ns_webservices->account;
+$request->account = Yii::$app->ns->account;
 $Response = $service->getDataCenterUrls($request);
 	
 if(!$Response->getDataCenterUrlsResult->status->isSuccess){
