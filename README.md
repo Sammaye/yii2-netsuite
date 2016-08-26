@@ -5,6 +5,7 @@ A NetSuite plugin for Yii2
 
 In your configuration file(s), for example; `main.php`:
 
+```
 'ns' => [
 	'class' => 'sammaye\netsuite\NetSuite',
 	'host' => 'https://webservices.netsuite.com',
@@ -13,6 +14,7 @@ In your configuration file(s), for example; `main.php`:
 	'account' => '######',
 	'password' => 'lalalalaomg'
 ],
+```
 
 ## Usage Example
 ```php
